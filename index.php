@@ -9,7 +9,6 @@
 <body>
   <h1>Hola Mundo!!!!</h1>
   <h1>Pull</h1>
-  <h1>𐐘💥╾━╤デ╦︻ඞා</h1>
   
 </body>
 </html>
