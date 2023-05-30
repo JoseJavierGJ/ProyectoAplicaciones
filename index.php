@@ -25,7 +25,10 @@
       <li><a href="">Login</a></li>
     </ul>
   </nav>
-
+    <div class="section1">
+      <label class="img_text">We Teach Students with care</label>
+      <img class="main_img" src="1.jpg">
+    </div>
 
 </body>
 </html>
