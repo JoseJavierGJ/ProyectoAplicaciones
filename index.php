@@ -103,17 +103,17 @@
 
         <div class="col-md-4">
             <img class="teacher" src="./img/web.jpg">
-            <h3 style="padding-left: 80px">Applications web</h3>
+            <h3 style="padding-left: 80px">Backend/Frontend</h3>
             
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/graphic.jpg">
-             <h3 style="padding-left: 45px">Graphics for computer</h3>
+             <h3 style="padding-left: 45px">Computer Graphics</h3>
              
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/marketing.png">
-             <h3 style="padding-left: 120px">Marketing</h3>
+             <h3 style="padding-left: 120px">Databases</h3>
              
         </div>
       </div>
@@ -144,7 +144,7 @@
           <input class="btn btn-primary" type="submit" value="apply" id="submit">
         </div>
         <footer>
-          <h3 class="footer_text">All @copyright reserved by Yojada</h3>
+          <h3 class="footer_text">All @copyright reserved by Yojada®</h3>
         </footer>
       </form>
     </div>
