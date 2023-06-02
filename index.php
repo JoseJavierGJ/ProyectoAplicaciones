@@ -112,7 +112,7 @@
              
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="./img/marketing.png">
+             <img class="teacher" src="./img/database.png">
              <h3 style="padding-left: 120px">Databases</h3>
              
         </div>
