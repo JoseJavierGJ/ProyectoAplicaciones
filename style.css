@@ -5,7 +5,7 @@
 
 nav{
     position: fixed;
-    background-color: skyblue;
+    background-color: #648285;
     height: 70px;
     width: 100%;
     z-index: 1;
@@ -132,7 +132,7 @@ footer{
 
 .label_deg{
     display: inline-block;
-    color: skyblue;
+    color: #a3c4c2;
     width: 100px;
     text-align: right;
     padding-top: 10px;

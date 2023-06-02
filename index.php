@@ -27,13 +27,13 @@
   </nav>
     <div class="section1">
       <label class="img_text">We Touch Students With Care ♥</label>
-      <img class="main_img" src="rose.jpg">
+      <img class="main_img" src="./img/rose.jpg">
     </div>
    <div class="container">
       <div class="row">
         <div class="col-md-4">
 
-          <img class ="welcome_img" src="school-chido.jpg" >
+          <img class ="welcome_img" src="./img/school-chido.jpg" >
 
         </div>
 
@@ -66,7 +66,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-            <img class="teacher" src="teacher1.jpg">
+            <img class="teacher" src="./img/teacher1.jpg">
             <p style="text-align: justify; width: 90%;">
               Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
               Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
@@ -75,7 +75,7 @@
             </p>
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="teacher2.jpg">
+             <img class="teacher" src="./img/teacher2.jpg">
              <p style="text-align: justify; width: 90%;">
               ¡Conoce al Profesor Perrito, el perro más coqueto y con un doctorado en Base 
               de Datos de toda la universidad! Este maestro de las matemáticas te enseñará 
@@ -84,7 +84,7 @@
              </p>
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="teacher3.jpg">
+             <img class="teacher" src="./img/teacher3.jpg">
              <p style="text-align: justify; width: 90%;">
               Conoce al enigmático Profesor Capibromas, el experto en programación de la 
               universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
@@ -102,17 +102,17 @@
       <div class="row">
 
         <div class="col-md-4">
-            <img class="teacher" src="web.jpg">
+            <img class="teacher" src="./img/web.jpg">
             <h3 style="padding-left: 80px">Applications web</h3>
             
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="graphic.jpg">
+             <img class="teacher" src="./img/graphic.jpg">
              <h3 style="padding-left: 45px">Graphics for computer</h3>
              
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="marketing.png">
+             <img class="teacher" src="./img/marketing.png">
              <h3 style="padding-left: 120px">Marketing</h3>
              
         </div>
