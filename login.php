@@ -13,7 +13,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-<body background="wallpaper-login2.jpg" class="body_deg">
+<body background="./img/wallpaper-login.jpg" class="body_deg">
   <center>
     <div class="form_deg">
       <center class="tittle_deg">
