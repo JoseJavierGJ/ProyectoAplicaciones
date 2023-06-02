@@ -22,27 +22,37 @@
       <li><a href="">Home</a></li>
       <li><a href="">contac</a></li>
       <li><a href="">Admission</a></li>
-      <li><a href="">Login</a></li>
+      <li><a href="login.php" class="btn btn-success">Login</a></li>
     </ul>
   </nav>
     <div class="section1">
-      <label class="img_text">We Teach Students with care</label>
-      <img class="main_img" src="1.jpg">
+      <label class="img_text">We Touch Students With Care ♥</label>
+      <img class="main_img" src="rose.jpg">
     </div>
    <div class="container">
       <div class="row">
         <div class="col-md-4">
 
-          <img class ="welcome_img" src="school2.jpg" >
+          <img class ="welcome_img" src="school-chido.jpg" >
 
         </div>
 
         <div class="col-md-8">
           <h1>Welcome to T-School</h1>
-          <p> Proporcionar soporte y orientación: Una página web educativa puede ofrecer soporte y 
-             orientación a los usuarios en su proceso de aprendizaje.
-             Esto puede incluir la disponibilidad de tutoriales, guías,
-             preguntas frecuentes, recursos adicionales y servicios de apoyo, como servicios de tutoría en línea o asesoramiento académico.</p>
+          <p style="text-align: justify;">
+          Descubre en la Universidad del Conocimiento Creativo una página 
+          web educativa que te brinda soporte y orientación durante tu viaje 
+          de aprendizaje. Sumérgete en un mundo de tutoriales interactivos, 
+          guías especializadas y preguntas frecuentes que despejarán tus dudas. 
+          Además, encontrarás recursos adicionales y servicios personalizados, 
+          como tutorías en línea y asesoramiento académico, para impulsar tu éxito. 
+          Nuestra plataforma se convierte en tu compañera fiel, guiándote hacia tus 
+          metas académicas. Explora un entorno enriquecedor, donde cada clic te acerca 
+          más a la excelencia educativa. En la Universidad del Conocimiento Creativo, 
+          estamos comprometidos a brindarte el apoyo necesario para alcanzar tus sueños 
+          y desarrollar todo tu potencial. ¡Únete a nosotros y desbloquea tu camino hacia 
+          el conocimiento!          
+          </p>
 
         </div>
 
@@ -57,19 +67,30 @@
       <div class="row">
         <div class="col-md-4">
             <img class="teacher" src="teacher1.jpg">
-            <p>in a vibrant, academically challenging, and encouraging
-              environment where manifols viewpoints are prized and celebrated
+            <p style="text-align: justify; width: 90%;">
+              Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
+              Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
+              matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
+              este genio del álgebra con piel de primate!
             </p>
         </div>
         <div class="col-md-4">
              <img class="teacher" src="teacher2.jpg">
-             <p>in a vibrant, academically challenging, and encouraging
-              environment where manifols viewpoints are prized and celebrated</p>
+             <p style="text-align: justify; width: 90%;">
+              ¡Conoce al Profesor Perrito, el perro más coqueto y con un doctorado en Base 
+              de Datos de toda la universidad! Este maestro de las matemáticas te enseñará 
+              de una forma perr-fectamente graciosa. Prepárate para aprender y reír con este 
+              adorable canino de conocimientos caninos.
+             </p>
         </div>
         <div class="col-md-4">
              <img class="teacher" src="teacher3.jpg">
-             <p>in a vibrant, academically challenging, and encouraging
-              environment where manifols viewpoints are prized and celebrated</p>
+             <p style="text-align: justify; width: 90%;">
+              Conoce al enigmático Profesor Capibromas, el experto en programación de la 
+              universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
+              secretos de la codificación en misteriosas clases. Prepárate para adentrarte 
+              en su mundo y descubrir el fascinante arte de la programación.
+             </p>
 
         </div>
       </div>
@@ -79,18 +100,20 @@
     </center>
     <div class="container">
       <div class="row">
+
         <div class="col-md-4">
             <img class="teacher" src="web.jpg">
-            <h3>Applications web</h3>
+            <h3 style="padding-left: 80px">Applications web</h3>
+            
         </div>
         <div class="col-md-4">
              <img class="teacher" src="graphic.jpg">
-             <h3>Graphics for computer</h3>
+             <h3 style="padding-left: 45px">Graphics for computer</h3>
              
         </div>
         <div class="col-md-4">
              <img class="teacher" src="marketing.png">
-             <h3>Marketing</h3>
+             <h3 style="padding-left: 120px">Marketing</h3>
              
         </div>
       </div>
@@ -121,7 +144,7 @@
           <input class="btn btn-primary" type="submit" value="apply" id="submit">
         </div>
         <footer>
-          <h3 class="footer_text">All @copyright reserved by web tech knowledge </h3>
+          <h3 class="footer_text">All @copyright reserved by Yojada</h3>
         </footer>
       </form>
     </div>
