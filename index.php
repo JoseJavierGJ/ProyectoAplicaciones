@@ -22,7 +22,7 @@
       <li><a href="">Home</a></li>
       <li><a href="">contac</a></li>
       <li><a href="">Admission</a></li>
-      <li><a href="login.php" class="btn btn-success">Login</a></li>
+      <li><a href="login.php" class="btn btn-info" >Login</a></li>
     </ul>
   </nav>
     <div class="section1">
@@ -119,7 +119,7 @@
       </div>
     </div>
     <center>
-      <h1 class ="adm">Admission Form</h1>
+      <h1 class ="adm" style="padding-left: 100px"">Admission Form</h1>
     </center>
     <div align="center" class="admission_form">
       <form>
