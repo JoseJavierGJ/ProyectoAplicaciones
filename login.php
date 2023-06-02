@@ -32,7 +32,7 @@
       <form action="login_check.php" method="POST" class="login_form">
 
         <div>
-          <label class="label_deg">Usersname</label>
+          <label class="label_deg">Username</label>
           <input type="text" name="username">
          </div>
 

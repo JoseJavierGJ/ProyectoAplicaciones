@@ -20,7 +20,7 @@
     <label class="logo">T-School</label>
     <ul>
       <li><a href="">Home</a></li>
-      <li><a href="">contac</a></li>
+      <li><a href="">Contact</a></li>
       <li><a href="">Admission</a></li>
       <li><a href="login.php" class="btn btn-info" >Login</a></li>
     </ul>
