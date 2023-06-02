@@ -32,7 +32,7 @@ session_start();
   <header class="header">
     <a href="" class="aa">Admin Dashboard</a>
     <div class="logout">
-      <a href="logout.php" class="btn btn-info">Logout</a>
+      <a href="index.php" class="btn btn-info">Logout</a>
     </div>
   </header>
   <aside>
