@@ -1,3 +1,21 @@
+<?php
+  error_reporting(0);
+  session_start();
+  session_destroy();
+
+  if($_SESSION['message'])
+  {
+    $message=$_SESSION['message'];
+
+    echo"<script type='text/javascript'>
+
+    alert('$message');
+
+    </script>";
+  }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -122,26 +140,27 @@
       <h1 class ="adm" style="padding-left: 100px"">Admission Form</h1>
     </center>
     <div align="center" class="admission_form">
-      <form>
+
+      <form action="data_check.php" method="POST">
         <div class="adm_int">
           <label class="label-text">Name</label>
-          <input class="input_Deg" type="text" name="">
+          <input class="input_Deg" type="text" name="name">
         </div>
 
         <div class="adm_int">
           <label class="label-text">Email</label>
-          <input class="input_Deg" type="text" name="">
+          <input class="input_Deg" type="text" name="email">
         </div>
         <div class="adm_int">
           <label class="label-text">Phone</label>
-          <input class="input_Deg" type="text" name="">
+          <input class="input_Deg" type="text" name="phone">
         </div>
         <div class="adm_int">
           <label class="label-text">Message</label>
-          <textarea class="input_txt"></textarea>
+          <textarea class="input_txt" name="message"></textarea>
         </div>
         <div class="adm_int">
-          <input class="btn btn-primary" type="submit" value="apply" id="submit">
+          <input class="btn btn-primary" type="submit" value="apply" id="submit" value="apply" name="apply">
         </div>
         <footer>
           <h3 class="footer_text">All @copyright reserved by Yojada®</h3>
