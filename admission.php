@@ -49,10 +49,10 @@ session_start();
 
       <table border="1px">
         <tr>
-          <th style="padding: 20px; font-size: 15px;">Name</th>
-          <th style="padding: 20px; font-size: 15px;">Email</th>
-          <th style="padding: 20px; font-size: 15px;">Phone</th>
-          <th style="padding: 20px; font-size: 15px;">Message</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Name</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Email</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Phone</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Message</th>
         </tr>
 
         <?php
