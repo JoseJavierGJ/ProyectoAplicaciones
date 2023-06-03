@@ -1,0 +1,13 @@
+Colocar en la carpeta db la base de datos para tener todos la misma.
+
+Para exportar selecciona la db y exportar, dale el mismo nombre de schoolproject. 
+OJO: checa que sea la db y no solo una tabla de esta.
+
+Borra la base de datos completamente de phpmyadmin puede ser con:
+"DROP DATABASE schoolproject" en la pestaña sql del proyecto. 
+
+Despúes crea otra base de datos con el mismo nombre e importa el archivo nuevo.
+
+𐐘💥╾━╤デ╦︻ඞා
+
+Puedes copiar y pegar el archivo .sql en otro lado para que sea más fácil para importar.

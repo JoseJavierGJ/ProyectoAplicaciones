@@ -85,7 +85,7 @@
       <div class="row">
         <div class="col-md-4">
             <img class="teacher" src="./img/teacher1.jpg">
-            <p style="text-align: justify; width: 90%;">
+            <p style="text-align: justify; width: 90%; margin-top: 10px;">
               Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
               Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
               matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
@@ -94,7 +94,7 @@
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/teacher2.jpg">
-             <p style="text-align: justify; width: 90%;">
+             <p style="text-align: justify; width: 90%; margin-top: 10px;">
               ¡Conoce al Profesor Perrito, el perro más coqueto y con un doctorado en Base 
               de Datos de toda la universidad! Este maestro de las matemáticas te enseñará 
               de una forma perr-fectamente graciosa. Prepárate para aprender y reír con este 
@@ -103,7 +103,7 @@
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/teacher3.jpg">
-             <p style="text-align: justify; width: 90%;">
+             <p style="text-align: justify; width: 90%; margin-top: 10px;">
               Conoce al enigmático Profesor Capibromas, el experto en programación de la 
               universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
               secretos de la codificación en misteriosas clases. Prepárate para adentrarte 
@@ -125,7 +125,7 @@
             
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="./img/graphic.jpg">
+             <img class="teacher" src="./img/graphics.jpg">
              <h3 style="padding-left: 45px">Computer Graphics</h3>
              
         </div>
