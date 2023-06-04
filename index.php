@@ -13,6 +13,16 @@
 
     </script>";
   }
+  $host="localhost";
+  $user="root";
+  $password="";
+  $db="schoolproject";
+
+  $data=mysqli_connect($host,$user,$password,$db);
+  $sql="SELECT * FROM teacher";
+  $result=mysqli_query($data,$sql);
+  
+
 ?>
 
 
@@ -83,34 +93,21 @@
     </center>
     <div class="container">
       <div class="row">
+        <?php
+        while($info=$result->fetch_assoc())
+        {
+        ?>
         <div class="col-md-4">
-            <img class="teacher" src="./img/teacher1.jpg">
-            <p style="text-align: justify; width: 90%; margin-top: 10px;">
-              Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
-              Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
-              matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
-              este genio del álgebra con piel de primate!
-            </p>
+            <img class="teacher" src="<?php echo "{$info['image']}"?>">
+            <h3><?php echo "{$info['name']}"?></h3>
+            <h5><?php echo "{$info['description']}"?></h5>
         </div>
-        <div class="col-md-4">
-             <img class="teacher" src="./img/teacher2.jpg">
-             <p style="text-align: justify; width: 90%; margin-top: 10px;">
-              ¡Conoce al Profesor Perrito, el perro más coqueto y con un doctorado en Base 
-              de Datos de toda la universidad! Este maestro de las matemáticas te enseñará 
-              de una forma perr-fectamente graciosa. Prepárate para aprender y reír con este 
-              adorable canino de conocimientos caninos.
-             </p>
-        </div>
-        <div class="col-md-4">
-             <img class="teacher" src="./img/teacher3.jpg">
-             <p style="text-align: justify; width: 90%; margin-top: 10px;">
-              Conoce al enigmático Profesor Capibromas, el experto en programación de la 
-              universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
-              secretos de la codificación en misteriosas clases. Prepárate para adentrarte 
-              en su mundo y descubrir el fascinante arte de la programación.
-             </p>
+        <?php
 
-        </div>
+        }
+        
+        
+        ?>
       </div>
     </div>
     <center>
