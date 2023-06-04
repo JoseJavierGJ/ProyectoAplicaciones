@@ -29,6 +29,30 @@ session_start();
   <?php
     include 'student_sidebar.php'
   ?>
+
+  <div class="content">
+    <form action="">
+      <div>
+        <label>Name</label>
+        <input type="text" name="name">
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email">
+      </div>
+      <div>
+        <label>Phone</label>
+        <input type="number" name="phone">
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="password" name="password">
+      </div>
+      <div>
+        <input type="submit" name="update_profile">
+      </div>
+    </form>
+  </div>
   
 </body>
 </html>
