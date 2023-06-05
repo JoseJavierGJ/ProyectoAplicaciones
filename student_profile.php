@@ -58,7 +58,7 @@ session_start();
     }
 
     .div_deg{
-      background-color: #f36bec;
+      background-color: skyblue;
       width: 500px;
       padding-top: 70px;
       padding-bottom: 70px;

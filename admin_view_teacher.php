@@ -91,7 +91,7 @@ error_reporting(0);
             <td class="table_td">
               <?php
               echo "
-              <a onClick=\"javascript:return confirm('Are You Sure To Delete This?');\" class='btn btn-danger' href='admin_view_teacher.php?teacher_id={$info['id']}'>Delete❌</a>"
+              <a onClick=\"javascript:return confirm('Are you sure you want to delete this teacher?');\" class='btn btn-danger' href='admin_view_teacher.php?teacher_id={$info['id']}'>Delete❌</a>"
               ?>
             </td>
             <td class="table_td">
