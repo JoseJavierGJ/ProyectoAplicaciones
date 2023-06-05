@@ -6,7 +6,7 @@
 
 nav{
     position: fixed;
-    background-color: #a3c4c2;
+    background-color: #f36bec;
     height: 70px;
     width: 100%;
     z-index: 1;
@@ -55,7 +55,7 @@ ul li a {
     top:20%;
     left: 30%;
     color: white;
-    background-color: #a3c4c2;
+    background-color: #f36bec;
     padding-right: 20px;
     padding-left: 20px;
     font-size: 35px;
