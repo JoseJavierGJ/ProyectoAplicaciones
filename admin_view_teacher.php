@@ -10,6 +10,7 @@ error_reporting(0);
   elseif($_SESSION['usertype']=='student'){
     header("location:login.php");
   }
+  
   $host="localhost";
   $user="root";
   $password="";
