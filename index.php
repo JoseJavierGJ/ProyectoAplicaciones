@@ -211,7 +211,7 @@
           <textarea class="input_txt" name="message"></textarea>
         </div>
         <div class="adm_int">
-          <input class="btn btn-primary" type="submit" value="apply" id="submit" value="apply" name="apply">
+          <input class="btn btn-primary" type="submit" id="submit" value="Apply" name="apply">
         </div>
         <footer>
           <h3 class="footer_text">All @copyright reserved by Yojada®</h3>
