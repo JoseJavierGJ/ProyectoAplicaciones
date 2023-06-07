@@ -6,7 +6,7 @@
 
 nav{
     position: fixed;
-    background-color: #a3c4c2;
+    background-color: #464655;
     height: 70px;
     width: 100%;
     z-index: 1;
@@ -79,7 +79,7 @@ ul li a {
     display: inline-block;
     width: 100px;
     text-align: right;
-    padding-right: 10px;
+    margin-left: 10px;
 }
 
 .input_Deg{
@@ -118,7 +118,6 @@ footer{
     color: white;
     top: 20%;
     position: relative;
-
 }
 
 .adm{

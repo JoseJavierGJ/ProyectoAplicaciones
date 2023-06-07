@@ -17,16 +17,16 @@ error_reporting(0);
   $db="schoolproject";
 
   $data=mysqli_connect($host,$user,$password,$db);
-  $sql="SELECT * FROM teacher";
+  $sql="SELECT * FROM course";
   $result=mysqli_query($data,$sql);
 
-  if($_GET['teacher_id']){
-    $t_id=$_GET['teacher_id'];
-    $sql2="DELETE FROM teacher WHERE id='$t_id' ";
+  if($_GET['course_id']){
+    $c_id=$_GET['course_id'];
+    $sql2="DELETE FROM course WHERE id='$c_id' ";
     $result2=mysqli_query($data, $sql2);
 
     if($result2){
-      header('location:admin_view_teacher.php');
+      header('location:admin_view_course.php');
     }
   }
 
@@ -69,8 +69,8 @@ error_reporting(0);
     <h1>View All Teacher Data</h1>
     <table border="1px">
         <tr>
-          <th class="table_th" style="text-align: center;">Teacher Name</th>
-          <th class="table_th" style="text-align: center;">About Teacher</th>
+          <th class="table_th" style="text-align: center;">Course Name</th>
+          <th class="table_th" style="text-align: center;">About Course</th>
           <th class="table_th" style="text-align: center;">Image</th>
           <th class="table_th" style="text-align: center;">Delete</th>
           <th class="table_th" style="text-align: center;">Update</th>
@@ -81,25 +81,25 @@ error_reporting(0);
         ?>
 
         <tr>
-            <td class="table_td" style="text-align: center;">
+            <td class="table_td">
               <?php echo "{$info['name']}"?>
             </td>
             <td class="table_td" style="text-align: justify; width:350px;">
               <?php echo "{$info['description']}"?>
             </td>
             <td class="table_td">
-              <img  height="100px" width="100px" src=" <?php echo "{$info['image']}"?>">
+              <img  height="100px" width="120px" src=" <?php echo "{$info['image']}"?>">
             </td>
             <td class="table_td">
               <?php
               echo "
-              <a onClick=\"javascript:return confirm('Are you sure you want to delete this teacher?');\" class='btn btn-danger' href='admin_view_teacher.php?teacher_id={$info['id']}'>Delete❌</a>"
+              <a onClick=\"javascript:return confirm('Are you sure you want to delete this course?');\" class='btn btn-danger' href='admin_view_course.php?course_id={$info['id']}'>Delete❌</a>"
               ?>
             </td>
             <td class="table_td">
               <?php
               echo "
-              <a href='admin_update_teacher.php?teacher_id={$info['id']}' class='btn btn-info'>Update👨🏽‍🤝‍👨🏻</a>";
+              <a href='admin_update_course.php?course_id={$info['id']}' class='btn btn-info'>Update👨🏽‍🤝‍👨🏻</a>";
               ?>
             </td>
         </tr>

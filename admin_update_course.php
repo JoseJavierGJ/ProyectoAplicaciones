@@ -18,14 +18,14 @@ error_reporting(0);
 
   $data=mysqli_connect($host, $user, $password, $db);
   
-  if($_GET['teacher_id']){
-    $t_id=$_GET['teacher_id'];
-    $sql="SELECT * FROM teacher WHERE id='$t_id' ";
+  if($_GET['course_id']){
+    $c_id=$_GET['course_id'];
+    $sql="SELECT * FROM course WHERE id='$c_id' ";
     $result=mysqli_query($data, $sql);
     $info=$result->fetch_assoc();
   }
 
-  if(isset($_POST['update_teacher'])){
+  if(isset($_POST['update_course'])){
     $id=$_POST['id'];
     $t_name=$_POST['name'];
     $t_des=$_POST['description'];
@@ -35,15 +35,15 @@ error_reporting(0);
     move_uploaded_file($_FILES['image']['tmp_name'],$dst);
 
     if($file){
-      $sql2="UPDATE teacher SET name='$t_name', description='$t_des', image='$dst_db' WHERE id='$id' ";
+      $sql2="UPDATE course SET name='$t_name', description='$t_des', image='$dst_db' WHERE id='$id' ";
       $result2=mysqli_query($data, $sql2);
     }else{
-      $sql2="UPDATE teacher SET name='$t_name', description='$t_des' WHERE id='$id' ";
+      $sql2="UPDATE course SET name='$t_name', description='$t_des' WHERE id='$id' ";
       $result2=mysqli_query($data, $sql2);
     }
 
     if($result2){
-      header('location:admin_view_teacher.php');
+      header('location:admin_view_course.php');
     }
   }
 ?>
@@ -87,27 +87,27 @@ error_reporting(0);
 
   <div class="content">
     <center><br>
-      <h1>Update Teacher Data</h1>
-      <form class="form_deg" action="admin_update_teacher.php" method="POST" enctype="multipart/form-data">
+      <h1>Update Course Data</h1>
+      <form class="form_deg" action="admin_update_course.php" method="POST" enctype="multipart/form-data">
       <input type="text" name="id" value="<?php echo "{$info['id']}" ?>" hidden>
         <div>
-          <label>Teacher Name</label>
+          <label>Course Name</label>
           <input type="text" name="name" value="<?php echo "{$info['name']}" ?>"> 
         </div>
         <div>
-          <label>About Teacher</label>
+          <label>About Course</label>
           <textarea name="description" rows="4"><?php echo "{$info['description']}" ?></textarea>
         </div>
         <div>
-          <label> Teacher Old Image</label>
+          <label> Course Old Image</label>
           <img width="100px" height="100px" src="<?php echo "{$info['image']}" ?>">
         </div>
         <div>
-          <label> Choose Teacher New Image</label>
+          <label> Choose Course New Image</label>
           <input type="file" name="image"> 
         </div>
         <div>
-          <input type="submit" name="update_teacher" class="btn btn-info" value="Update"> 
+          <input type="submit" name="update_course" class="btn btn-info" value="Update"> 
         </div>
       </form>
     </center>
