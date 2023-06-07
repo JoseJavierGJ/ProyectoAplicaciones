@@ -41,14 +41,34 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script>
+    function scrollToCourses() {
+      var coursesSection = document.getElementById('courses');
+      window.scrollTo({
+        top: coursesSection.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  <script>
+    function scrollToCourses2() {
+      var coursesSection = document.getElementById('admissions');
+      window.scrollTo({
+        top: coursesSection.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  
 </head>
 <body>
   <nav>
     <label class="logo">T-School</label>
     <ul>
       <li><a href="">Home</a></li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">Admission</a></li>
+      <li><a href="#" onclick="scrollToCourses()">Courses</a></li>
+      <li><a href="#" onclick="scrollToCourses2()">Admissions</a></li>
       <li><a href="login.php" class="btn btn-info" >Login</a></li>
     </ul>
   </nav>
@@ -144,7 +164,7 @@
         ?>
       </div>
     </div> -->
-    <center>
+    <center id="courses">
       <h1>Our Courses</h1>
     </center>
     <div class="container">
@@ -152,23 +172,23 @@
 
         <div class="col-md-4">
             <img class="teacher" src="./img/web.jpg">
-            <h3 style="padding-left: 80px">Backend/Frontend</h3>
+            <h3 style="padding-left: 65px">Backend/Frontend</h3>
             
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/graphics.jpg">
-             <h3 style="padding-left: 45px">Computer Graphics</h3>
+             <h3 style="padding-left: 54px">Computer Graphics</h3>
              
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/database.png">
-             <h3 style="padding-left: 120px">Databases</h3>
+             <h3 style="padding-left: 118px">Databases</h3>
              
         </div>
       </div>
     </div>
     <center>
-      <h1 class ="adm" style="padding-left: 100px"">Admission Form</h1>
+      <h1 class ="adm" style="padding-left: 100px" id="admissions">Admission Form</h1>
     </center>
     <div align="center" class="admission_form">
 

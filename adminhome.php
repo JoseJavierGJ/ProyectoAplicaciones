@@ -25,12 +25,17 @@ session_start();
   ?>
 
   <style>
-    .gif-container{
-      margin-left: 50%;
-      margin-top: 8%;
+    .gif-container img{
+      margin-left: 45%;
+      margin-top: 1%;
       width: 400px;
       height: 300px; 
     }
+
+    /* .gif-container img{
+      width: 400px;
+      height: 300px; 
+    } */
   </style>
   
 </head>
@@ -41,7 +46,7 @@ session_start();
   ?>
 
   <div class="content"><br>
-    <h1 style="font-size: bold; text-align: center;">Bienvenido al Mejor Profesor 😎</h1>
+    <h1 style="font-size: bold; text-align: center;">Bienvenido Al Mejor Profesor 😎</h1>
   </div>
   <div class="gif-container">
     <img src="https://media.tenor.com/Bq2aAQc8gOQAAAAM/bird-dance.gif" alt="GIF animado">
