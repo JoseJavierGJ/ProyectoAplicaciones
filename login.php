@@ -16,7 +16,10 @@
 </head>
 <body background="./img/wallpaper-login.jpg" class="body_deg">
   <div class="home">
-    <a href="index.php" class="btn btn-info">Home</a>
+    <div class="btn-home">
+      <a href="index.php" class="btn btn-info">Home</a>
+    </div>
+    
   </div>
   <center>
     <div class="form_deg">
