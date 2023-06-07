@@ -81,16 +81,16 @@ session_start();
         while($info=$result->fetch_assoc()){
         ?>
         <tr>
-            <td class="table_td">
+            <td class="table_td" style="text-align: center;">
                 <?php echo "{$info['username']}"; ?>
             </td>
-            <td class="table_td">
+            <td class="table_td" style="text-align: center;">
                 <?php echo "{$info['email']}"; ?>
             </td>
-            <td class="table_td">
+            <td class="table_td" style="text-align: center;">
                 <?php echo "{$info['phone']}"; ?>
             </td>
-            <td class="table_td">
+            <td class="table_td" style="text-align: center;">
                 <?php echo "{$info['password']}"; ?>
             </td>
             <td class="table_td" style="text-align: center;">

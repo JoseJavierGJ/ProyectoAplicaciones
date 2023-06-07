@@ -81,7 +81,7 @@ error_reporting(0);
         ?>
 
         <tr>
-            <td class="table_td">
+            <td class="table_td" style="text-align: center;">
               <?php echo "{$info['name']}"?>
             </td>
             <td class="table_td" style="text-align: justify; width:350px;">

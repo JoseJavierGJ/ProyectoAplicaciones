@@ -1,5 +1,5 @@
 <header class="header">
-    <a href="" class="aa">Admin Dashboard</a>
+    <a href="adminhome.php" class="aa">Admin Dashboard</a>
     <div class="logout">
       <a href="index.php" class="btn btn-info">Logout</a>
     </div>

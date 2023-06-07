@@ -23,6 +23,15 @@ session_start();
   <?php
     include 'admin_css.php';
   ?>
+
+  <style>
+    .gif-container{
+      margin-left: 50%;
+      margin-top: 8%;
+      width: 400px;
+      height: 300px; 
+    }
+  </style>
   
 </head>
 <body>
@@ -31,8 +40,11 @@ session_start();
     include 'admin_sidebar.php';
   ?>
 
-  <div class="content">
+  <div class="content"><br>
     <h1 style="font-size: bold; text-align: center;">Bienvenido al Mejor Profesor 😎</h1>
+  </div>
+  <div class="gif-container">
+    <img src="https://media.tenor.com/Bq2aAQc8gOQAAAAM/bird-dance.gif" alt="GIF animado">
   </div>
   
 </body>
