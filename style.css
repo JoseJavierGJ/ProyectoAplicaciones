@@ -87,6 +87,7 @@ ul li a {
     height: 40px;
     border-radius: 25px;
     border: 1 px solid blue;
+    text-indent: 10px;
 }
 
 .adm_int{
@@ -98,6 +99,9 @@ ul li a {
     height: 120px;
     border-radius: 25px;
     border: 1 px solid blue;
+    /* text-indent: 15px; */
+    padding-top: 8px;
+    padding-left: 15px;
 }
 
 #submit
