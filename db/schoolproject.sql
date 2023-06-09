@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-06-2023 a las 05:02:57
+-- Tiempo de generación: 09-06-2023 a las 17:17:53
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -92,6 +92,26 @@ INSERT INTO `student_course` (`id`, `name`, `date`, `time`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `student_results`
+--
+
+CREATE TABLE `student_results` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `grade` decimal(3,1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `student_results`
+--
+
+INSERT INTO `student_results` (`id`, `name`, `grade`) VALUES
+(1, 'Físca', 8.5),
+(2, 'Español', 7.0);
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `teacher`
 --
 
@@ -160,6 +180,12 @@ ALTER TABLE `student_course`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `student_results`
+--
+ALTER TABLE `student_results`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `teacher`
 --
 ALTER TABLE `teacher`
@@ -192,6 +218,12 @@ ALTER TABLE `course`
 --
 ALTER TABLE `student_course`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT de la tabla `student_results`
+--
+ALTER TABLE `student_results`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `teacher`
