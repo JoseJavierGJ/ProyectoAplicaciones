@@ -10,22 +10,22 @@
         <a href="admission.php">Admission</a>
       </li>
       <li>
-        <a href="add_student.php">Add Student</a>
+        <a href="add_student.php">Agregar Estudiante</a>
       </li>
       <li>
-        <a href="view_student.php">View Student</a>
+        <a href="view_student.php">Ver Estudiantes</a>
       </li>
       <li>
-        <a href="admin_add_teacher.php">Add Teacher</a>
+        <a href="admin_add_teacher.php">Agregar Profesor</a>
       </li>
       <li>
-        <a href="admin_view_teacher.php">View Teacher</a>
+        <a href="admin_view_teacher.php">Ver Profesores</a>
       </li>
       <li>
-        <a href="admin_add_course.php">Add Courses</a>
+        <a href="admin_add_course.php">Agregar Curso</a>
       </li>
       <li>
-        <a href="admin_view_course.php">View Courses</a>
+        <a href="admin_view_course.php">Ver cursos</a>
       </li>
     </ul>
   </aside>

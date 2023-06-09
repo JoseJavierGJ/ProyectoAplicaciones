@@ -13,7 +13,7 @@
         <a href="student_course.php"">My Courses</a>
       </li>
       <li>
-        <a href="">My Results</a>
+        <a href="student_results.php">My Results</a>
       </li>
     </ul>
   </aside>

@@ -64,11 +64,11 @@
 </head>
 <body>
   <nav>
-    <label class="logo">T-School</label>
+    <label class="logo">Yojada-School</label>
     <ul>
       <li><a href="">Home</a></li>
-      <li><a href="#" onclick="scrollToCourses()">Courses</a></li>
-      <li><a href="#form-section">Admissions</a></li>
+      <li><a href="#" onclick="scrollToCourses()">Cursos</a></li>
+      <li><a href="#form-section">Admisiones</a></li>
       <li><a href="login.php" class="btn btn-info" >Login</a></li>
     </ul>
   </nav>
@@ -85,7 +85,7 @@
         </div>
 
         <div class="col-md-8">
-          <h1>Welcome to T-School</h1>
+          <h1>Bienvenido a Yojada-School</h1>
           <p style="text-align: justify;">
           Descubre en la Universidad del Conocimiento Creativo una página 
           web educativa que te brinda soporte y orientación durante tu viaje 
@@ -107,7 +107,7 @@
       </div>
     </div>
     <center>
-      <h1>Our Teachers</h1>
+      <h1>Nuestros Profesores</h1>
     </center>
     <div class="container">
       <div class="row">
@@ -165,7 +165,7 @@
       </div>
     </div> -->
     <center id="courses">
-      <h1>Our Courses</h1>
+      <h1>Nuestros Cursos</h1>
     </center>
     <div class="container">
       <div class="row">
@@ -188,26 +188,26 @@
       </div>
     </div>
     <center>
-      <h1 class ="adm" style="padding-left: 100px" id="form-section">Admission Form</h1>
+      <h1 class ="adm" style="padding-left: 100px" id="form-section">Formulario de Admisión</h1>
     </center>
     <div align="center" class="admission_form">
 
       <form action="data_check.php" method="POST">
         <div class="adm_int">
-          <label class="label-text">Name</label>
+          <label class="label-text">Nombre</label>
           <input class="input_Deg" type="text" name="name">
         </div>
 
         <div class="adm_int">
-          <label class="label-text">Email</label>
+          <label class="label-text">Correo</label>
           <input class="input_Deg" type="text" name="email">
         </div>
         <div class="adm_int">
-          <label class="label-text">Phone</label>
+          <label class="label-text">Teléfono</label>
           <input class="input_Deg" type="text" name="phone">
         </div>
         <div class="adm_int">
-          <label class="label-text">Message</label>
+          <label class="label-text">Mensaje</label>
           <textarea class="input_txt" name="message"></textarea>
         </div>
         <div class="adm_int">
