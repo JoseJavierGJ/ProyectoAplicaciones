@@ -93,24 +93,24 @@ session_start();
 
   <div class="content">
     <center><br>
-    <h1>Add Student</h1>
+    <h1>Añadir Estudiante</h1>
     <div class="div_deg">
         <form action="#" method="POST">
             <div>
-                <label>Username</label>
+                <label>Usuario</label>
                 <input type="text" name="name">
             </div>
             <div>
-                <label>Email</label>
+                <label>Correo</label>
                 <input type="text" name="email">
             </div>
             <div>
-                <label>Phone</label>
+                <label>Teléfono</label>
                 <input type="number" name="phone">
             </div>
             <div>
-                <label>Password</label>
-                <input type="text" name="password">
+                <label>Contraseña</label>
+                <input type="password" name="password">
             </div>
             <div>
                 <input type="submit" class="btn btn-primary" name="add_student" value="Add Student">

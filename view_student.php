@@ -58,7 +58,7 @@ session_start();
 
   <div class="content">
     <center><br>
-    <h1>Student Data</h1>
+    <h1>Datos de Estudiante</h1>
     <?php
         if($_SESSION['message']){
             echo $_SESSION['message'];
@@ -69,12 +69,12 @@ session_start();
     <br>
     <table border="1px">
         <tr>
-            <th class="table_th">Username</th>
-            <th class="table_th">Email</th>
-            <th class="table_th">Phone</th>
-            <th class="table_th">Password</th>
-            <th class="table_th">Delete</th>
-            <th class="table_th">Update</th>
+            <th class="table_th">Usuario</th>
+            <th class="table_th">Correo</th>
+            <th class="table_th">Teléfono</th>
+            <th class="table_th">Contraseña</th>
+            <th class="table_th">Borrar</th>
+            <th class="table_th">Actualizar</th>
         </tr>
 
         <?php

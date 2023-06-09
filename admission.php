@@ -44,16 +44,16 @@ session_start();
 
   <div class="content">
     <center><br>
-      <h1>Applied For Admission</h1>
+      <h1>Solicitud de admisión</h1>
 
       <br>
 
       <table border="1px">
         <tr>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Name</th>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Email</th>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Phone</th>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Message</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Nombre</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Correo</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Teléfono</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center;">Mensaje</th>
         </tr>
 
         <?php

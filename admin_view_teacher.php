@@ -66,14 +66,14 @@ error_reporting(0);
 
   <div class="content">
     <center><br>
-    <h1>View All Teacher Data</h1>
+    <h1>Ver información de los maestros</h1>
     <table border="1px">
         <tr>
-          <th class="table_th" style="text-align: center;">Teacher Name</th>
-          <th class="table_th" style="text-align: center;">About Teacher</th>
-          <th class="table_th" style="text-align: center;">Image</th>
-          <th class="table_th" style="text-align: center;">Delete</th>
-          <th class="table_th" style="text-align: center;">Update</th>
+          <th class="table_th" style="text-align: center;">Nombre</th>
+          <th class="table_th" style="text-align: center;">Descripción</th>
+          <th class="table_th" style="text-align: center;">Foto</th>
+          <th class="table_th" style="text-align: center;">Borrar</th>
+          <th class="table_th" style="text-align: center;">Actualizar</th>
         </tr>
         <?php
         while($info=$result->fetch_assoc()){

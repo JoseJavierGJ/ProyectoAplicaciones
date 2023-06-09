@@ -63,21 +63,21 @@ session_start();
 
   <div class="content">
     <center><br>
-        <h1>Add Teacher</h1> <br>
+        <h1>Añadir Profesor</h1> <br>
         <div class="div_deg">
     <form action="#" method="POST" enctype="multipart/form-data">
         <div>
-            <label>Teacher Name:</label>
+            <label>Nombre:</label>
             <input type="text" name="name">
         </div>
         <br>
         <div>
-            <label>Description</label>
+            <label>Descripción:</label>
             <textarea name="description" ></textarea>
         </div>
         <br>
         <div>
-            <label>Image:</label>
+            <label>Imágen:</label>
             <input type="file" name="image">
         </div>
         <br>

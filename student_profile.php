@@ -76,7 +76,7 @@ session_start();
   <div class="content">
     <center><br>
 
-      <h1>Update Profile</h1>
+      <h1>Actualizar perfil</h1>
       <br><br>
 
       <form action="#" method="POST">
@@ -86,16 +86,16 @@ session_start();
             <input type="text" name="name" value="<?php echo "{$info['username']}" ?>">
           </div> -->
           <div>
-            <label>Email</label>
+            <label>Correo</label>
             <input type="email" name="email" value="<?php echo "{$info['email']}" ?>">
           </div>
           <div>
-            <label>Phone</label>
+            <label>Teléfono</label>
             <input type="number" name="phone" value="<?php echo "{$info['phone']}" ?>">
           </div>
           <div>
-            <label>Password</label>
-            <input type="text" name="password" value="<?php echo "{$info['password']}" ?>">
+            <label>Contraseña</label>
+            <input type="password" name="password" value="<?php echo "{$info['password']}" ?>">
           </div>
           <div>
             <input type="submit" class="btn btn-info" name="update_profile" value="Update">
