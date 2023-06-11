@@ -42,15 +42,6 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <script>
-    function scrollToCourses() {
-      var coursesSection = document.getElementById('courses');
-      window.scrollTo({
-        top: coursesSection.offsetTop,
-        behavior: 'smooth'
-      });
-    }
-  </script>
   <!-- <script>
     function scrollToCourses2() {
       var coursesSection = document.getElementById('admissions');
@@ -67,7 +58,7 @@
     <label class="logo">Yojada-School</label>
     <ul>
       <li><a href="">Home</a></li>
-      <li><a href="#" onclick="scrollToCourses()">Cursos</a></li>
+      <li><a href="#courses">Cursos</a></li>
       <li><a href="#form-section">Admisiones</a></li>
       <li><a href="login.php" class="btn btn-info" >Login</a></li>
     </ul>
@@ -164,8 +155,8 @@
         ?>
       </div>
     </div> -->
-    <center id="courses">
-      <h1>Nuestros Cursos</h1>
+    <center>
+      <h1 id="courses">Nuestros Cursos</h1>
     </center>
     <div class="container">
       <div class="row">
@@ -220,3 +211,9 @@
     </div>
 </body>
 </html>
+
+<style>
+  #courses {
+  scroll-margin-top: 100px; /* Ajusta el valor según tus necesidades */
+}
+</style>
