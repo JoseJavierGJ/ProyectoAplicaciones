@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col-md-4">
 
-          <img class ="welcome_img" src="./img/school-chido.jpg" >
+          <img class ="welcome_img" src="./img/1.jpg" >
 
         </div>
 
