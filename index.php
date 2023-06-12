@@ -30,7 +30,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>T-School</title>
+  <title>Yojada</title>
   <link rel="icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a9f7539-9d01-4e36-b27d-254409ac16c9/d9e64l5-e25b4b91-9738-470b-bf7f-b75878a85d34.png/v1/fill/w_16,h_16/16x16_free_pixel_cookie_by_mintiestea_d9e64l5-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYiLCJwYXRoIjoiXC9mXC8zYTlmNzUzOS05ZDAxLTRlMzYtYjI3ZC0yNTQ0MDlhYzE2YzlcL2Q5ZTY0bDUtZTI1YjRiOTEtOTczOC00NzBiLWJmN2YtYjc1ODc4YTg1ZDM0LnBuZyIsIndpZHRoIjoiPD0xNiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.i7QshEPrKPq9V52UMdtCNgPc491I6lf6elJY4k-0_NI" type="image/png">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -56,17 +56,17 @@
 </head>
 <body>
   <nav>
-    <label class="logo">Yojada-School</label>
+    <label class="logo" style="font-family: Poppins;">Yojada-School</label>
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="#courses">Cursos</a></li>
-      <li><a href="#form-section">Admisiones</a></li>
-      <li><a href="login.php" class="btn btn-info" >Login</a></li>
+      <li><a href="" style="font-family: Poppins;">Home</a></li>
+      <li><a href="#courses" style="font-family: Poppins;">Cursos</a></li>
+      <li><a href="#form-section" style="font-family: Poppins;" >Admisiones</a></li>
+      <li><a href="login.php" class="btn btn-info" style="font-family: Poppins;" >Login</a></li>
     </ul>
   </nav>
     <div class="section1">
       <label class="img_text">"La solución inteligente para un éxito educativo duradero"</label>
-      <img class="main_img" src="./img/rose.jpg">
+      <img class="main_img" src="./img/cch.jpg">
     </div>
    <div class="container">
       <div class="row">
@@ -104,12 +104,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-            <img class="teacher" src="./img/teacher1.jpg">
+            <img class="teacher" src="./img/Marco.jpg">
             <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins; ">
-              Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
-              Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
-              matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
-              este genio del álgebra con piel de primate!
+              Conoce al Profesor Marco Aurelio, el Profesor más listo y divertido de la universidad. 
+              Con su Ingenieria en  Teleinformática y Maestría en Tecnologías Web y Dispositivos Móviles, 
+              sus habilidades de programación son excepcionales y su capacidad para aprender nuevas tecnologías rápidamente es asombrosa.
             </p>
         </div>
         <div class="col-md-4">
