@@ -77,8 +77,8 @@
         </div>
 
         <div class="col-md-8">
-          <h1>Bienvenido a Yojada-School</h1>
-          <p style="text-align: justify;">
+          <h1 style="font-family: poppins;">Bienvenido a Yojada-School</h1>
+          <p style="text-align: justify;  font-family: Poppins;">
           Descubre en la Universidad del Conocimiento Creativo una página 
           web educativa que te brinda soporte y orientación durante tu viaje 
           de aprendizaje. Sumérgete en un mundo de tutoriales interactivos, 
@@ -99,13 +99,13 @@
       </div>
     </div>
     <center>
-      <h1>Nuestros Profesores</h1>
+      <h1 style="font-family: poppins;">Nuestros Profesores</h1>
     </center>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
             <img class="teacher" src="./img/teacher1.jpg">
-            <p style="text-align: justify; width: 90%; margin-top: 10px;">
+            <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins; ">
               Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
               Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
               matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
@@ -114,7 +114,7 @@
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/teacher2.jpg">
-             <p style="text-align: justify; width: 90%; margin-top: 10px;">
+             <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins;">
               ¡Conoce al Profesor Perrito, el perro más coqueto y con un doctorado en Base 
               de Datos de toda la universidad! Este maestro de las matemáticas te enseñará 
               de una forma perr-fectamente graciosa. Prepárate para aprender y reír con este 
@@ -123,7 +123,7 @@
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/teacher3.jpg">
-             <p style="text-align: justify; width: 90%; margin-top: 10px;">
+             <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins;">
               Conoce al enigmático Profesor Capibromas, el experto en programación de la 
               universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
               secretos de la codificación en misteriosas clases. Prepárate para adentrarte 
@@ -157,7 +157,7 @@
       </div>
     </div> -->
     <center>
-      <h1 id="courses">Nuestros Cursos</h1>
+      <h1 id="courses" style="font-family: poppins;">Nuestros Cursos</h1>
     </center>
     <div class="container">
       <div class="row">
@@ -180,7 +180,7 @@
       </div>
     </div>
     <center>
-      <h1 class ="adm" style="padding-left: 100px" id="form-section">Formulario de Admisión</h1>
+      <h1 class ="adm" style="padding-left: 100px" id="form-section" style="font-family: poppins;">Formulario de Admisión</h1>
     </center>
     <div align="center" class="admission_form">
 
