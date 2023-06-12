@@ -72,7 +72,7 @@ error_reporting(0);
     }
 
     .form_deg{
-      background-color: #CDF7F6;
+      background-color: #c8dcff;
       width: 600px;
       padding-top: 70px;
       padding-bottom: 70px;

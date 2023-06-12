@@ -44,7 +44,7 @@ session_start();
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <style type="text/css">
     .div_deg{
-        background-color: #CDF7F6;
+        background-color: #c8dcff;
         padding-top: 70px;
         padding-bottom:70px;
         width: 500px;

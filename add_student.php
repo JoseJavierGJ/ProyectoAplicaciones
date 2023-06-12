@@ -70,13 +70,15 @@ session_start();
         width: 100px;
         padding-top: 10px;
         padding-bottom: 10px;
+        font-family: Poppins;
     }
     .div_deg
     {
-        background-color: #CDF7F6;
+        background-color: #c8dcff;
         width: 400px;
         padding-top: 70px;
         padding-bottom: 70px; 
+        font-family: Poppins;
     }
   </style>
 

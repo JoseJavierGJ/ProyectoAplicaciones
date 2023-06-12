@@ -53,7 +53,7 @@ error_reporting(0);
     }
     .table_td{
         padding: 20px;
-        background-color:#CDF7F6;
+        background-color:#c8dcff;
     }
   </style>
 

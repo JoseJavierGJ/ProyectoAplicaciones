@@ -54,7 +54,7 @@ if (isset($_GET['course_id'])) {
 
     .table_td {
       padding: 20px;
-      background-color: #CDF7F6;
+      background-color: #c8dcff;
       font-family:Poppins;
     }
   </style>

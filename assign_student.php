@@ -53,7 +53,7 @@ $result = mysqli_query($data, $sql);
         }
 
         .form_deg {
-            background-color: #CDF7F6;
+            background-color: #c8dcff;
             width: 600px;
             padding-top: 70px;
             padding-bottom: 70px;
