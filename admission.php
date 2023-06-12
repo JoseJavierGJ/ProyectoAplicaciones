@@ -61,13 +61,13 @@ session_start();
         ?>
 
         <tr>
-          <td style="padding: 20px; width: 150px; font-family: Poppins;">
+          <td style="padding: 20px; width: 150px; font-family: Poppins; text-align: center;">
             <?php echo "{$info['name']}"; ?>
           </td>
-          <td style="padding: 20px; font-family: Poppins;">
+          <td style="padding: 20px; font-family: Poppins; text-align: center;">
             <?php echo "{$info['email']}"; ?>
           </td>
-          <td style="padding: 20px; font-family: Poppins;">
+          <td style="padding: 20px; font-family: Poppins; text-align: center;">
             <?php echo "{$info['phone']}"; ?>
           </td>
           <td style="padding: 20px; width: 500px; text-align: justify; font-family: Poppins;">

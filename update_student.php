@@ -100,7 +100,7 @@ session_start();
             <input type="text" name="password" value="<?php echo "{$info['password']}"; ?>">
           </div>
           <div>
-            <input class="btn btn-info" type="submit" name="update" value="Update" style="font-family: Poppins;">
+            <input class="btn btn-info" type="submit" name="update" value="Actualizar" style="font-family: Poppins;">
           </div>
         </form>
       </div>

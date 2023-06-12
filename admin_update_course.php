@@ -89,7 +89,7 @@ error_reporting(0);
 
   <div class="content">
     <center><br>
-      <h1 style="font-family:Poppins;">Update Course Data</h1>
+      <h1 style="font-family:Poppins;">Actualizar Datos del Curso</h1>
       <form class="form_deg" action="admin_update_course.php" method="POST" enctype="multipart/form-data">
       <input type="text" name="id" value="<?php echo "{$info['id']}" ?>" hidden>
         <div>
@@ -101,11 +101,11 @@ error_reporting(0);
           <textarea name="description" rows="4"><?php echo "{$info['description']}" ?></textarea>
         </div>
         <div>
-          <label style="font-family:Poppins;"> Imagen Antigua</label>
+          <label style="font-family:Poppins;"> Imágen Antigua</label>
           <img width="100px" height="100px" src="<?php echo "{$info['image']}" ?>">
         </div>
         <div>
-          <label style="font-family:Poppins;"> Escoger Nueva Imagen</label>
+          <label style="font-family:Poppins;"> Escoger Nueva Imágen</label>
           <input type="file" name="image"> 
         </div>
         <div>

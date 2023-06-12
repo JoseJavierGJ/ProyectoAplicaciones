@@ -42,7 +42,7 @@ session_start();
         if($result)
         {
             echo " <script type='text/javascript'> 
-            alert('Data Upload Success'); </script>";
+            alert('Datos Actualizados Correctamente'); </script>";
         }
         else 
         {

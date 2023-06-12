@@ -65,7 +65,7 @@
     </ul>
   </nav>
     <div class="section1">
-      <label class="img_text">"La solución inteligente para un éxito educativo duradero"</label>
+      <label class="img_text">"La solución inteligente para un éxito educativo duradero".</label>
       <img class="main_img" src="./img/cch.jpg">
     </div>
    <div class="container">
@@ -77,7 +77,7 @@
         </div>
 
         <div class="col-md-8">
-          <h1 style="font-family: poppins;">Bienvenido a Yojada-School</h1>
+          <h1 style="font-family: poppins;">Bienvenido a Yojada-School.</h1>
           <p style="text-align: justify;  font-family: Poppins;">
           Descubre en la Universidad del Conocimiento Creativo una página 
           web educativa que te brinda soporte y orientación durante tu viaje 
@@ -99,17 +99,17 @@
       </div>
     </div>
     <center>
-      <h1 style="font-family: poppins;">Nuestros Profesores</h1>
+      <h1 style="font-family: poppins;">Nuestros Profesores.</h1>
     </center>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-            <img class="teacher" src="./img/teacher1.jpg">
+            <img class="teacher" src="./img/teacherM.png">
             <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins; ">
-              Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
-              Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
-              matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
-              este genio del álgebra con piel de primate!
+              Conoce al enigmático Profesor Marco Aurerlio, el experto en programación de la 
+              universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
+              secretos de la codificación en misteriosas clases. Prepárate para adentrarte 
+              en su mundo y descubrir el fascinante arte de la programación. 
             </p>
         </div>
         <div class="col-md-4">
@@ -124,10 +124,10 @@
         <div class="col-md-4">
              <img class="teacher" src="./img/teacher3.jpg">
              <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins;">
-              Conoce al enigmático Profesor Capibromas, el experto en programación de la 
-              universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
-              secretos de la codificación en misteriosas clases. Prepárate para adentrarte 
-              en su mundo y descubrir el fascinante arte de la programación.
+              Conoce al Profesor Capibromas, el mono más listo y divertido de la universidad. 
+              Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
+              matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
+              este genio del álgebra con piel de primate!
              </p>
         </div>
       </div>
@@ -157,19 +157,19 @@
       </div>
     </div> -->
     <center>
-      <h1 id="courses" style="font-family: poppins;">Nuestros Cursos</h1>
+      <h1 id="courses" style="font-family: poppins;">Nuestros Cursos.</h1>
     </center>
     <div class="container">
       <div class="row">
 
         <div class="col-md-4">
             <img class="teacher" src="./img/web.jpg">
-            <h3 style="padding-left: 65px">Backend/Frontend</h3>
+            <h3 style="padding-left: 65px">Backend/Frontend.</h3>
             
         </div>
         <div class="col-md-4">
              <img class="teacher" src="./img/graphics.jpg">
-             <h3 style="padding-left: 54px">Computer Graphics</h3>
+             <h3 style="padding-left: 54px">Computer Graphics.</h3>
              
         </div>
         <div class="col-md-4">
@@ -203,7 +203,7 @@
           <textarea class="input_txt" name="message"></textarea>
         </div>
         <div class="adm_int">
-          <input class="btn btn-primary" type="submit" id="submit" value="Apply" name="apply">
+          <input class="btn btn-primary" type="submit" id="submit" value="Aplicar" name="apply">
         </div>
         <footer>
           <h3 class="footer_text">All @copyright reserved by Yojada®</h3>

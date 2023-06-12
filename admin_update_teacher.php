@@ -89,23 +89,23 @@ error_reporting(0);
 
   <div class="content">
     <center><br>
-      <h1  style="font-family:Poppins;" >Update Teacher Data</h1>
+      <h1  style="font-family:Poppins;" >Actualizar Datos del Profesor</h1>
       <form class="form_deg" action="admin_update_teacher.php" method="POST" enctype="multipart/form-data">
       <input type="text" name="id" value="<?php echo "{$info['id']}" ?>" hidden>
         <div>
-          <label style="font-family:Poppins;">Teacher Name</label>
+          <label style="font-family:Poppins;">Nombre</label>
           <input type="text" name="name" value="<?php echo "{$info['name']}" ?>"> 
         </div>
         <div>
-          <label style="font-family:Poppins;" >About Teacher</label>
+          <label style="font-family:Poppins;" >Descripción</label>
           <textarea name="description" rows="4"><?php echo "{$info['description']}" ?></textarea>
         </div>
         <div>
-          <label style="font-family:Poppins;" > Teacher Old Image</label>
+          <label style="font-family:Poppins;" >Imágen Antigua</label>
           <img width="100px" height="100px" src="<?php echo "{$info['image']}" ?>">
         </div>
         <div>
-          <label style="font-family:Poppins;" > Choose Teacher New Image</label>
+          <label style="font-family:Poppins;" >Escoger Nueva Imágen</label>
           <input type="file" name="image"> 
         </div>
         <div>
