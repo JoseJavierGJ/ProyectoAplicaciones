@@ -56,7 +56,7 @@
 </head>
 <body>
   <nav>
-    <label class="logo" style="font-family: Poppins;">Yojada-School</label>
+    <label class="logo" style="font-family: Poppins; font-size: 22px; ">Yojada-School</label>
     <ul>
       <li><a href="" style="font-family: Poppins;">Home</a></li>
       <li><a href="#courses" style="font-family: Poppins;">Cursos</a></li>
