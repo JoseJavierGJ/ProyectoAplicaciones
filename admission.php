@@ -44,16 +44,16 @@ session_start();
 
   <div class="content">
     <center><br>
-      <h1>Solicitud de admisión</h1>
+      <h1 style="font-family: Poppins;">Solicitud de admisión</h1>
 
       <br>
 
       <table border="1px">
         <tr>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Nombre</th>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Correo</th>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Teléfono</th>
-          <th style="padding: 20px; font-size: 15px; text-align: center;">Mensaje</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center; font-family: Poppins;">Nombre</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center; font-family: Poppins">Correo</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center; font-family: Poppins">Teléfono</th>
+          <th style="padding: 20px; font-size: 15px; text-align: center; font-family: Poppins">Mensaje</th>
         </tr>
 
         <?php
@@ -61,16 +61,16 @@ session_start();
         ?>
 
         <tr>
-          <td style="padding: 20px" width: 150px;">
+          <td style="padding: 20px; width: 150px; font-family: Poppins;">
             <?php echo "{$info['name']}"; ?>
           </td>
-          <td style="padding: 20px">
+          <td style="padding: 20px; font-family: Poppins;">
             <?php echo "{$info['email']}"; ?>
           </td>
-          <td style="padding: 20px">
+          <td style="padding: 20px; font-family: Poppins;">
             <?php echo "{$info['phone']}"; ?>
           </td>
-          <td style="padding: 20px; width: 500px; text-align: justify;">
+          <td style="padding: 20px; width: 500px; text-align: justify; font-family: Poppins;">
             <?php echo "{$info['message']}"; ?>
           </td>
         </tr>
