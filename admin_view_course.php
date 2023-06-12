@@ -97,10 +97,10 @@ if (isset($_GET['course_id'])) {
             <td class="table_td">
               <?php
               echo "
-              <a onClick=\"javascript:return confirm('Are you sure you want to delete this course?');\" class='btn btn-danger' href='admin_view_course.php?course_id={$info['id']}'>Delete</a>"
+              <a onClick=\"javascript:return confirm('¿Estas seguro que quieres eliminar estex curso?');\" class='btn btn-danger' href='admin_view_course.php?course_id={$info['id']}'>Delete</a>"
               ?>
             </td>
-            <td class="table_td">
+            <td class="table_td" style="text-align: center;">
               <?php
               echo "
               <a href='admin_update_course.php?course_id={$info['id']}' class='btn btn-info'>Update</a>";

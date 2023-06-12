@@ -97,7 +97,7 @@ session_start();
           </div>
           <div>
             <label style="font-family: Poppins;">Contraseña</label>
-            <input type="text" name="password" value="<?php echo "{$info['password']}"; ?>">
+            <input type="password" name="password" value="<?php echo "{$info['password']}"; ?>">
           </div>
           <div>
             <input class="btn btn-info" type="submit" name="update" value="Actualizar" style="font-family: Poppins;">

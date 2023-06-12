@@ -97,7 +97,7 @@ session_start();
                 <?php echo "{$info['password']}"; ?>
             </td>
             <td class="table_td" style="text-align: center; font-family: Poppins;">
-                <?php echo "<a onClick=\"javascript:return confirm('Are you sure you want to delete this student?');\" 
+                <?php echo "<a onClick=\"javascript:return confirm('¿Estas seguro que quieres eliminar este estudiante?');\" 
                     class='btn btn-danger' href='delete.php?student_id={$info['id']}'>Delete</a>"; ?>
             </td>
 

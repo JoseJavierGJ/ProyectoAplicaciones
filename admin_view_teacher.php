@@ -96,13 +96,13 @@ error_reporting(0);
             <td class="table_td">
               <?php
               echo "
-              <a onClick=\"javascript:return confirm('Are you sure you want to delete this teacher?');\" class='btn btn-danger' href='admin_view_teacher.php?teacher_id={$info['id']}'>Delete❌</a>"
+              <a onClick=\"javascript:return confirm('¿Estas seguro que quieres eliminar este profesor?');\" class='btn btn-danger' href='admin_view_teacher.php?teacher_id={$info['id']}'>Delete</a>"
               ?>
             </td>
             <td class="table_td">
               <?php
               echo "
-              <a href='admin_update_teacher.php?teacher_id={$info['id']}' class='btn btn-info'>Update👨🏽‍🤝‍👨🏻</a>";
+              <a href='admin_update_teacher.php?teacher_id={$info['id']}' class='btn btn-info'>Update</a>";
               ?>
             </td>
         </tr>
