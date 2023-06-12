@@ -9,7 +9,7 @@
   <aside>
     <ul>
       <li>
-        <a href="admission.php"  style="font-family: Poppins;">Admission</a>
+        <a href="admission.php"  style="font-family: Poppins;">Admisiones</a>
       </li>
       <li>
         <a href="add_student.php" style="font-family: Poppins;">Agregar Estudiante</a>

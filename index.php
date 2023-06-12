@@ -104,26 +104,27 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-            <img class="teacher" src="./img/Marco.jpg">
+            <img class="teacher" src="./img/teacher1.jpg">
             <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins; ">
-              Conoce al Profesor Marco Aurelio, el Profesor más listo y divertido de la universidad. 
-              Con su Ingenieria en  Teleinformática y Maestría en Tecnologías Web y Dispositivos Móviles, 
-              sus habilidades de programación son excepcionales y una capacidad para aprender nuevas tecnologías rápidamente es asombrosa.
+              Conoce al Profesor Chimpansky, el mono más listo y divertido de la universidad. 
+              Con su doctorado en Algebra Lineal y una cola llena de ecuaciones, hace que las 
+              matemáticas sean una aventura llena de risas. ¡Prepárate para aprender y reír con 
+              este genio del álgebra con piel de primate!
             </p>
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="./img/carranza.jpg">
+             <img class="teacher" src="./img/teacher2.jpg">
              <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins;">
-              ¡Conoce al Profesor Juan Carlos Carranza, el profe más coqueto y con un doctorado en Base 
+              ¡Conoce al Profesor Perrito, el perro más coqueto y con un doctorado en Base 
               de Datos de toda la universidad! Este maestro de las matemáticas te enseñará 
               de una forma perr-fectamente graciosa. Prepárate para aprender y reír con este 
-              adorable profe de conocimientos.
+              adorable canino de conocimientos caninos.
              </p>
         </div>
         <div class="col-md-4">
-             <img class="teacher" src="./img/Oscar.jpg">
+             <img class="teacher" src="./img/teacher3.jpg">
              <p style="text-align: justify; width: 90%; margin-top: 10px;  font-family: Poppins;">
-              Conoce al enigmático Profesor Oscar Manzano, el experto en programación de la 
+              Conoce al enigmático Profesor Capibromas, el experto en programación de la 
               universidad. Con un doctorado en desarrollo backend y frontend, desvela los 
               secretos de la codificación en misteriosas clases. Prepárate para adentrarte 
               en su mundo y descubrir el fascinante arte de la programación.

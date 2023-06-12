@@ -98,11 +98,11 @@ session_start();
             </td>
             <td class="table_td" style="text-align: center; font-family: Poppins;">
                 <?php echo "<a onClick=\"javascript:return confirm('Are you sure you want to delete this student?');\" 
-                    class='btn btn-danger' href='delete.php?student_id={$info['id']}'>Delete❌</a>"; ?>
+                    class='btn btn-danger' href='delete.php?student_id={$info['id']}'>Delete</a>"; ?>
             </td>
 
             <td class="table_td" font-family: Poppins;>
-                <?php echo "<a class='btn btn-info' href='update_student.php?student_id={$info['id']}'> Update👨🏿‍🤝‍👨🏿 </a>"; ?>
+                <?php echo "<a class='btn btn-info' href='update_student.php?student_id={$info['id']}'> Update</a>"; ?>
             </td>
 
         </tr>

@@ -24,12 +24,33 @@ session_start();
     include 'student_css.php'
   ?>  
 
+<style>
+    .gif-container img{
+      margin-left: 45%;
+      margin-top: 1%;
+      width: 400px;
+      height: 300px; 
+    }
+
+    /* .gif-container img{
+      width: 400px;
+      height: 300px; 
+    } */
+  </style>
+
 </head>
 <body>
 
   <?php
     include 'student_sidebar.php'
   ?>
+
+  <div class="content"><br>
+    <h1 style="font-size: bold; text-align: center; font-family: Poppins;" >Bienvenidos a su espacio Digital 😎</h1>
+  </div>
+  <div class="gif-container">
+    <img src="https://gifdb.com/images/high/cute-kitty-cat-rxfhhdfepi4k59y9.gif" alt="GIF animado">
+  </div>
   
 </body>
 </html>

@@ -93,19 +93,19 @@ error_reporting(0);
       <form class="form_deg" action="admin_update_course.php" method="POST" enctype="multipart/form-data">
       <input type="text" name="id" value="<?php echo "{$info['id']}" ?>" hidden>
         <div>
-          <label style="font-family:Poppins;" >Course Name</label>
+          <label style="font-family:Poppins;" >Curso</label>
           <input type="text" name="name" value="<?php echo "{$info['name']}" ?>"> 
         </div>
         <div>
-          <label style="font-family:Poppins;" >About Course</label>
+          <label style="font-family:Poppins;" >Descripción</label>
           <textarea name="description" rows="4"><?php echo "{$info['description']}" ?></textarea>
         </div>
         <div>
-          <label style="font-family:Poppins;"> Course Old Image</label>
+          <label style="font-family:Poppins;"> Imagen Antigua</label>
           <img width="100px" height="100px" src="<?php echo "{$info['image']}" ?>">
         </div>
         <div>
-          <label style="font-family:Poppins;"> Choose Course New Image</label>
+          <label style="font-family:Poppins;"> Escoger Nueva Imagen</label>
           <input type="file" name="image"> 
         </div>
         <div>

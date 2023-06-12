@@ -84,19 +84,19 @@ session_start();
       <div class="div_deg">
         <form action="#" method="POST">
           <div>
-            <label style="font-family: Poppins;">Username</label>
+            <label style="font-family: Poppins;">Usuario</label>
             <input type="text" name="name" value="<?php echo "{$info['username']}"; ?>">
           </div>
           <div>
-            <label style="font-family: Poppins;">Email</label>
+            <label style="font-family: Poppins;">Correo</label>
             <input type="email" name="email" value="<?php echo "{$info['email']}"; ?>">
           </div>
           <div>
-            <label style="font-family: Poppins;">Phone</label>
+            <label style="font-family: Poppins;">Teléfono</label>
             <input type="number" name="phone" value="<?php echo "{$info['phone']}"; ?>">
           </div>
           <div>
-            <label style="font-family: Poppins;">Password</label>
+            <label style="font-family: Poppins;">Contraseña</label>
             <input type="text" name="password" value="<?php echo "{$info['password']}"; ?>">
           </div>
           <div>

@@ -10,13 +10,13 @@
   <aside>
     <ul style="padding-top: 100px">
       <li>
-        <a href="student_profile.php" style="font-family: Poppins;">My Profile</a>
+        <a href="student_profile.php" style="font-family: Poppins;">Mi Perfil</a>
       </li>
       <li>
-        <a href="student_course.php" style="font-family: Poppins;">My Courses</a>
+        <a href="student_course.php" style="font-family: Poppins;">Mis Cursos</a>
       </li>
       <li>
-        <a href="student_results.php" style="font-family: Poppins;">My Results</a>
+        <a href="student_results.php" style="font-family: Poppins;">Mis Calificaciones</a>
       </li>
     </ul>
   </aside>

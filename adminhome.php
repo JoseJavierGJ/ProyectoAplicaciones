@@ -46,7 +46,7 @@ session_start();
   ?>
 
   <div class="content"><br>
-    <h1 style="font-size: bold; text-align: center; font-family: Poppins;" >Bienvenidos a su espacio Digital</h1>
+    <h1 style="font-size: bold; text-align: center; font-family: Poppins;" >Bienvenidos a su espacio Digital 🎓</h1>
   </div>
   <div class="gif-container">
     <img src="https://media.tenor.com/Bq2aAQc8gOQAAAAM/bird-dance.gif" alt="GIF animado">
